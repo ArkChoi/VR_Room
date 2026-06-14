@@ -69,7 +69,7 @@ MonoBehaviour:
   lateLatchingDebug: 0
   optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegions: 0
+  m_hasMigratedMultiviewRenderRegions: 1
   spacewarpMotionVectorTextureFormat: 0
 --- !u!114 &-7820868890856997645
 MonoBehaviour:
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
   m_useOpenXRPredictedTime: 0
 --- !u!114 &-7470157432825876478
@@ -550,7 +550,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
   m_useOpenXRPredictedTime: 0
 --- !u!114 &-707227803232718553
@@ -1058,26 +1058,26 @@ MonoBehaviour:
   m_Name: Standalone
   m_EditorClassIdentifier: Unity.XR.OpenXR::UnityEngine.XR.OpenXR.OpenXRSettings
   features:
-  - {fileID: 6103516972473252544}
-  - {fileID: -7470157432825876478}
   - {fileID: 5901703566917236397}
-  - {fileID: 4137354505883844071}
-  - {fileID: -2921441319935117050}
-  - {fileID: 852710516872381982}
-  - {fileID: 2325000458385546862}
-  - {fileID: -7820868890856997645}
   - {fileID: 1556364648879582754}
+  - {fileID: 2325000458385546862}
+  - {fileID: -5712187929441525677}
   - {fileID: 6479690306111108463}
-  - {fileID: -4166974416718747727}
+  - {fileID: 7690321448253871165}
+  - {fileID: 8860348647604063134}
   - {fileID: 1115797907695999921}
   - {fileID: -5582490719980329450}
-  - {fileID: 7690321448253871165}
-  - {fileID: -6180442684069536109}
-  - {fileID: 8860348647604063134}
-  - {fileID: -5712187929441525677}
-  - {fileID: -7299662661130476316}
-  - {fileID: -5900583777212336726}
   - {fileID: 2258894402917016756}
+  - {fileID: -7299662661130476316}
+  - {fileID: -7820868890856997645}
+  - {fileID: 852710516872381982}
+  - {fileID: -4166974416718747727}
+  - {fileID: -7470157432825876478}
+  - {fileID: -2921441319935117050}
+  - {fileID: 4137354505883844071}
+  - {fileID: 6103516972473252544}
+  - {fileID: -5900583777212336726}
+  - {fileID: -6180442684069536109}
   - {fileID: 8285310849679881214}
   customLoaderName: 
   m_renderMode: 1
@@ -1091,7 +1091,7 @@ MonoBehaviour:
   m_symmetricProjection: 0
   m_optimizeMultiviewRenderRegions: 0
   m_multiviewRenderRegionsOptimizationMode: 0
-  m_hasMigratedMultiviewRenderRegionSetting: 0
+  m_hasMigratedMultiviewRenderRegionSetting: 1
   m_foveatedRenderingApi: 0
   m_useOpenXRPredictedTime: 0
 --- !u!114 &8285310849679881214
@@ -1106,7 +1106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e314dfef9af0904e80129bcc0a79361, type: 3}
   m_Name: HandTracking Standalone
   m_EditorClassIdentifier: Unity.XR.Hands::UnityEngine.XR.Hands.OpenXR.HandTracking
-  m_enabled: 0
+  m_enabled: 1
   nameUi: Hand Tracking Subsystem
   version: 0.0.1
   featureIdInternal: com.unity.openxr.feature.input.handtracking
